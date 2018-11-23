@@ -22,3 +22,6 @@ If you already have a cocoapods installed in your mac run this comands above:
 2 - pod setup
 
 3 - pod update
+
+4 - run this command to open the project: open GetGitHub.xcworkspace
+```
