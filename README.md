@@ -2,6 +2,7 @@
 ```
 This app uses the GitHub API to search a user or a repository in GitHub
 
+
 before open the project, please install dependencies using Cocoapods
 
 1 - if you don't have Cocoapods installed in you mac, run this command: sudo gem install cocoapods
