@@ -1,4 +1,5 @@
-# 6_desafio
+# GetGitHub
+```
 This app uses the GitHub API to search a user or a repository in GitHub
 
 before open the project, please install dependencies using Cocoapods
