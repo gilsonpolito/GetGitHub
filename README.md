@@ -16,7 +16,7 @@ before open the project, please install dependencies using Cocoapods
 
 
 
-If you already have a cocoapods installed in your mac run this comands above:
+If you already have a cocoapods installed in your mac run this commands above:
 
 1 - pod repo remove master
 
