@@ -26,7 +26,7 @@
                                 <color key="backgroundColor" red="0.94689363859999998" green="1" blue="0.97992330520000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="MaZ-wl-tqv"/>
-                                    <constraint firstAttribute="width" constant="130" id="t2L-Qn-c3s"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="t2L-Qn-c3s"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
                                 <state key="normal" title="User" image="user">
@@ -41,7 +41,7 @@
                                 <color key="backgroundColor" red="0.94689363859999998" green="1" blue="0.97992330520000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Jej-7Q-KFS"/>
-                                    <constraint firstAttribute="width" constant="130" id="M5K-eY-FHk"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="M5K-eY-FHk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="21"/>
                                 <state key="normal" title="Repository" image="repository">
@@ -336,6 +336,6 @@
         <image name="user" width="26" height="26"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Tpk-NC-ijt"/>
+        <segue reference="boj-Le-34w"/>
     </inferredMetricsTieBreakers>
 </document>
