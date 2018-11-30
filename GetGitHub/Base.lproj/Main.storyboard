@@ -157,6 +157,7 @@
                                             <outlet property="avatarImage" destination="IpP-rY-8RM" id="DBV-CK-avJ"/>
                                             <outlet property="loginLabel" destination="5sR-PR-9se" id="wjD-JF-jmv"/>
                                             <outlet property="scoreLabel" destination="qu0-1w-nuf" id="RWD-KM-Kll"/>
+                                            <segue destination="0in-vI-X6n" kind="show" identifier="userSearchDetail" id="Tpk-NC-ijt"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -334,4 +335,7 @@
         <image name="star" width="16" height="16"/>
         <image name="user" width="26" height="26"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Tpk-NC-ijt"/>
+    </inferredMetricsTieBreakers>
 </document>

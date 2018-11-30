@@ -34,6 +34,13 @@ class UserViewController: UIViewController, UITableViewDataSource, UITableViewDe
         userTableView?.deselectRow(at: indexPath, animated: true)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "userSearchDetail"{
+            let us = segue.destination as! RepositoryViewController
+            us.repositorySearch = userSearch + "/"
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.arrRes.count
     }
